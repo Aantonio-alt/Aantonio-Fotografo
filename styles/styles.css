@@ -44,6 +44,10 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   height: 100%;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .sidebar {
   background-color: #ffffff;
   display: flex;
@@ -167,13 +171,10 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 1.5rem;
-    max-height: 96vh;
+    margin-top: 2rem;
+    max-height: 95vh;
   }
   .sidebar {
     padding: 2rem 0 2rem 1rem;
-  }
-  .name {
-    margin-left: 0.5rem;
   }
 }/*# sourceMappingURL=styles.css.map */

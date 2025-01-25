@@ -46,6 +46,10 @@ html, body {
   display: flex;
   width: auto;
   height: 100%;
+
+}
+::-webkit-scrollbar {
+  display: none;
 }
 .sidebar {
   background-color: #ffffff;
@@ -176,13 +180,11 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     gap: .5rem;
-    margin-top: 1.5rem;
-    max-height: 96vh;
+    margin-top: 2rem;
+    max-height: 95vh;
   }
   .sidebar{
     padding: 2rem 0 2rem 1rem;
   }
-  .name{
-    margin-left: .5rem;
-  }
+  
 }
