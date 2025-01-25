@@ -171,7 +171,6 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    padding-top: 1rem;
     max-height: 92vh;
     overflow-y: auto;
   }
