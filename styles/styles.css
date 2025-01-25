@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+html img, html picture, html video, html canvas, html svg, body img, body picture, body video, body canvas, body svg {
+  display: block;
+  max-width: 100%;
+}
+html ul, body ul {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: #7e7e7e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul li {
+  margin-bottom: 10px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+  color: gray;
+}
+
+.footer {
+  font-size: 0.8rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.gallery {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(10, 1fr);
+  max-height: 100vh;
+  gap: 10px;
+  padding: 20px;
+  overflow-y: auto;
+}
+.gallery .item-grid-1 {
+  grid-row: 1/3;
+  grid-column: 1/2;
+}
+.gallery .item-grid-2 {
+  grid-row: 1;
+  grid-column: 2/4;
+}
+.gallery .item-grid-3 {
+  grid-row: 2;
+  grid-column: 1/2;
+}
+.gallery .item-grid-4 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.gallery .item-grid-5 {
+  grid-column: 1;
+  grid-row: 2;
+  justify-content: end;
+  align-self: self-end;
+}
+.gallery .item-grid-6 {
+  grid-column: 1/3;
+  grid-row: 3;
+}
+.gallery .item-grid-7 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.gallery .item-grid-8 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.gallery .item-grid-9 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.gallery .item-grid-10 {
+  grid-column: 3;
+  grid-row: 3/4;
+}/*# sourceMappingURL=styles.css.map */
