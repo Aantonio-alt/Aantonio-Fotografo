@@ -167,4 +167,10 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     display: flex;
     flex-wrap: wrap;
   }
+  .sidebar {
+    padding: 2rem 0 2rem 1rem;
+  }
+  .name {
+    margin-left: 0.5rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
