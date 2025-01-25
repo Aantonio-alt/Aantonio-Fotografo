@@ -160,4 +160,11 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 .gallery .item-grid-15 {
   grid-column: 1/4;
   grid-row: 6;
+}
+
+@media screen and (max-width: 770px) {
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=styles.css.map */
