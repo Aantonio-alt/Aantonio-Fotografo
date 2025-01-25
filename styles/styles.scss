@@ -176,6 +176,8 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     gap: .5rem;
+    margin-top: 1.5rem;
+    max-height: 96vh;
   }
   .sidebar{
     padding: 2rem 0 2rem 1rem;
