@@ -5,13 +5,10 @@
 }
 
 html, body {
-  margin: 0;
-  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #f9f9f9;
+  height: 100%;
 }
 html img, html picture, html video, html canvas, html svg, body img, body picture, body video, body canvas, body svg {
   display: block;
@@ -20,54 +17,76 @@ html img, html picture, html video, html canvas, html svg, body img, body pictur
 html ul, body ul {
   list-style: none;
 }
+html .tinos-regular, body .tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html .tinos-bold, body .tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+html .tinos-regular-italic, body .tinos-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+html .tinos-bold-italic, body .tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
 
-.container {
+.header {
   display: flex;
-  width: 30%;
+  width: auto;
   height: 100%;
-  margin: 0;
-  padding: 0;
 }
 
 .sidebar {
-  background-color: #7e7e7e;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 20px;
+  padding: 2rem;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
-
-.brand {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
+.sidebar .name {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+  padding: 1rem 0;
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  font-weight: 500;
+  letter-spacing: 0.15rem;
 }
-
-.nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.nav ul li {
-  margin-bottom: 10px;
-}
-
-.nav ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.nav ul li a:hover {
-  color: gray;
-}
-
-.footer {
+.sidebar .footer {
   font-size: 0.8rem;
   color: rgb(0, 0, 0);
   text-align: center;
+  margin-top: auto;
+  padding: 0 1rem;
+}
+
+.pages {
+  padding: 0 0 0 1rem;
+}
+.pages ul {
+  list-style: none;
+}
+.pages li {
+  margin-bottom: 0.8rem;
+}
+.pages a {
+  text-decoration: none;
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  font-size: 0.9rem;
+  color: rgb(41, 41, 41);
+  font-weight: 100;
+  letter-spacing: 0.15rem;
+  transition: color 0.3s ease;
+}
+.pages a:hover {
+  color: gray;
 }
 
 .gallery {
