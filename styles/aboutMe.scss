@@ -116,6 +116,7 @@ html, body {
     font-weight: 100;
     font-size: .9rem;
     text-align: justify;
+    padding: 1rem;
     
     .item-grid-1{
         grid-column: 1/5;
@@ -131,9 +132,47 @@ html, body {
 
     }
     .item-grid-3{
-        grid-column: 5/9;
+        grid-column: 5/10;
         grid-row: 2/5;
         padding: 1rem 0 0 2rem;
 
     }
+}
+
+
+
+
+
+
+@media screen and (max-width: 770px){
+
+  .sidebar{
+    padding: 2rem 0 2rem 1rem;
+    min-width: 12rem;
+
+  }
+  .grid-conteiner{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+      
+  .item-grid-1{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 0 0 0 2rem;
+  }
+  .item-grid-2{
+    grid-column: 1;
+    grid-row: 2;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 0 2rem;
+  }
+  .item-grid-3{
+    grid-column: 1;
+    grid-row: 3;
+    padding: 1rem 0 0 2rem;
+
+  }
 }

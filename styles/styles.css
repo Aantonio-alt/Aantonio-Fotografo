@@ -180,5 +180,6 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   }
   .sidebar {
     padding: 2rem 0 2rem 1rem;
+    min-width: 12rem;
   }
 }/*# sourceMappingURL=styles.css.map */
