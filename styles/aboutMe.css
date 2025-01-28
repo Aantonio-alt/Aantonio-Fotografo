@@ -118,7 +118,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   padding: 0 0 0 2rem;
 }
 .grid-conteiner .item-grid-2 {
-  grid-column: 5/7;
+  grid-column: 5/10;
   grid-row: 1;
   display: flex;
   align-items: flex-end;
@@ -130,31 +130,34 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   padding: 1rem 0 0 2rem;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 790px) {
   .sidebar {
     padding: 2rem 0 2rem 1rem;
     min-width: 12rem;
   }
-  .grid-conteiner {
+  main .grid-conteiner {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 3rem 1rem 1rem 1rem;
   }
-  .item-grid-1 {
+  main .grid-conteiner .item-grid-1 {
+    grid-column: 1;
+    grid-row: 3;
+    padding: 2rem;
+  }
+  main .grid-conteiner .item-grid-2 {
     grid-column: 1;
     grid-row: 1;
-    padding: 0 0 0 2rem;
-  }
-  .item-grid-2 {
-    grid-column: 1;
-    grid-row: 2;
     display: flex;
     align-items: flex-end;
     padding: 0 0 0 2rem;
+    align-items: center;
+    justify-content: center;
   }
-  .item-grid-3 {
+  main .grid-conteiner .item-grid-3 {
     grid-column: 1;
-    grid-row: 3;
-    padding: 1rem 0 0 2rem;
+    grid-row: 2;
+    padding: 0.5rem;
   }
 }/*# sourceMappingURL=aboutMe.css.map */
