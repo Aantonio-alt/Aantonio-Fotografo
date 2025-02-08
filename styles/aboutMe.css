@@ -219,7 +219,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     grid-row: 1;
     display: flex;
     align-items: flex-end;
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
     align-items: center;
     justify-content: center;
   }
