@@ -66,6 +66,13 @@ html, body {
     font-family: "Tinos",'Times New Roman', Times, serif;
     font-weight: 100;
     letter-spacing: .15rem ;
+    
+    a{
+      text-decoration: none;
+      font-family: "Tinos",'Times New Roman', Times, serif;
+      color: rgb(41, 41, 41);
+      transition: color 0.3s ease;
+    }
 
   }
   .footer {
@@ -112,7 +119,6 @@ html, body {
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(5,1fr);
     max-height: 99vh;
-    overflow-y: auto;
     font-family: "Tinos",'Times New Roman', Times, serif;
     letter-spacing: 1px ;
     line-height: 1.5rem;
@@ -230,6 +236,7 @@ html, body {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     padding: 1rem 1rem 1rem 1rem;
+    max-height: 100vh;
       
     .item-grid-1{
       grid-column: 1;

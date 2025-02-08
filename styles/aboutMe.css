@@ -63,6 +63,12 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   font-weight: 100;
   letter-spacing: 0.15rem;
 }
+.sidebar .name a {
+  text-decoration: none;
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  color: rgb(41, 41, 41);
+  transition: color 0.3s ease;
+}
 .sidebar .footer {
   font-size: 0.8rem;
   color: rgb(0, 0, 0);
@@ -103,7 +109,6 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(5, 1fr);
   max-height: 99vh;
-  overflow-y: auto;
   font-family: "Tinos", "Times New Roman", Times, serif;
   letter-spacing: 1px;
   line-height: 1.5rem;
@@ -201,6 +206,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     padding: 1rem 1rem 1rem 1rem;
+    max-height: 100vh;
   }
   main .grid-conteiner .item-grid-1 {
     grid-column: 1;
