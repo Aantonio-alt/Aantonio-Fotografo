@@ -194,7 +194,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     font-weight: 100;
     letter-spacing: 0.15rem;
     transition: color 0.3s ease;
-    font-size: 8rem;
+    font-size: 0.8rem;
   }
   .pages a:hover {
     color: rgb(139, 139, 139);
