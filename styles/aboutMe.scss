@@ -164,7 +164,7 @@ html, body {
 
   }
   .sidebar{
-    padding: 2rem 0 2rem 1rem;
+    padding: 2rem 1rem 2rem 1rem;
     min-width: 12rem;
   }
   .header {
@@ -222,6 +222,7 @@ html, body {
     font-weight: 100;
     letter-spacing: .15rem;
     transition: color 0.3s ease;
+    font-size: 8rem;
   }
   
   .pages a:hover {
