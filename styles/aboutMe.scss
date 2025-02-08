@@ -151,11 +151,10 @@ html, body {
 
 @media screen and (max-width: 790px){
 
-  html body {
+  html, body {
     display: block;
-    justify-content: center;
-    align-items: center;
     height: 100%;
+
   }
   .sidebar{
     padding: 2rem 0 2rem 1rem;
@@ -179,29 +178,33 @@ html, body {
     padding: 0;
     box-shadow: none;
     min-width: auto;
-  }
-  
-  .name {
-    font-size: 2rem;
-    font-family: "Tinos", 'Times New Roman', Times, serif;
-    font-weight: 100;
-    letter-spacing: .15rem;
+
+    .name {
+      font-size: 1.4rem;
+      font-family: "Tinos", 'Times New Roman', Times, serif;
+      font-weight: 100;
+      letter-spacing: .15rem;
+      padding: 1rem 1rem 1.5rem 1rem;
+    }
   }
   
   .pages {
-    margin-left: auto;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    max-width: 90vw; 
+    padding: 0;
+    margin: .3rem;
   }
-  
+
   .pages ul {
     display: flex;
-    list-style: none;
     gap: 2rem;
     padding: 0;
     margin: 0;
   }
   
   .pages li {
-    margin-bottom: 0; /* Se elimina el espacio entre elementos */
+    margin-bottom: 0; 
   }
   
   .pages a {
@@ -219,7 +222,7 @@ html, body {
   }
   
   .footer {
-    display: none; /* Se oculta el footer en la cabecera */
+    display: none; 
   }
   
   main .grid-conteiner{
