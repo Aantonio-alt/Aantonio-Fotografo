@@ -136,7 +136,7 @@ html, body {
     line-height: 1.5rem;
     font-weight: 100;
     font-size: .9rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 1rem ;
     padding-bottom: 2rem;
 
@@ -172,7 +172,7 @@ html, body {
   padding-left: 1rem ;
   h2{
     font-family: "Tinos",'Times New Roman', Times, serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 400;
     font-style: italic;
     padding-bottom: 1rem;
@@ -212,14 +212,19 @@ html, body {
     grid-column: 2;
   }
 }
+
+
 .instagram{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
+  a{
+    text-decoration: none;
+  }
 
   .ig-name{
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1/5;
     align-self: center;
     justify-self: center;
@@ -229,6 +234,7 @@ html, body {
     font-size: 1rem;
   }
 
+  
   .ig-tittle{
     padding: 1rem 0rem;
     grid-column: 1/5;
@@ -240,9 +246,16 @@ html, body {
   }
   .ig-img1{
     grid-column: 1/6;
-    grid-row: 3;
+    grid-row: 4;
   }
- 
+  .linea {
+    grid-row: 2;
+    grid-column: 1/6;
+    border-top: 1px solid #000000; 
+    width: 35%; 
+    margin: 5px auto;
+  }
+
 }
 
 @media screen and (max-width: 790px){
@@ -352,6 +365,38 @@ html, body {
 
     }
   }
+
+  .lista-destacados{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    li{
+      padding-left: 1rem;
+    }
+
+    .destacado-item-1{
+      grid-row: 1;
+      grid-column: 2;
+    }
+    .destacado-item-2{
+      grid-row: 2;
+      grid-column: 2;
+    }
+    .destacado-item-3{
+      grid-row: 1;
+      grid-column: 1;
+    }
+    .destacado-item-4{
+      grid-row: 2;
+      grid-column: 1;
+    }
+    .destacado-item-5{
+      grid-row: 3;
+      grid-column: 1;
+    }
+  }
+  
+
   .main-content{
     padding: 0;
     max-height: none;
@@ -363,9 +408,18 @@ html, body {
 
   .grid-conteiner{
     .item-grid-3{
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       padding-right: 1.5rem;
+      padding-top: 1rem;
     }
+    .item-grid-2{
+      padding-top: 1rem;
+    }
+    .item-grid-3{
+      grid-column: 5/10;
+      grid-row: 2/5;
+      padding: .5rem 1rem 1rem 1rem;
+  }
   }
 
 }

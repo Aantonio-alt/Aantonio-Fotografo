@@ -123,7 +123,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   line-height: 1.5rem;
   font-weight: 100;
   font-size: 0.9rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
   padding-bottom: 2rem;
 }
@@ -156,7 +156,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 }
 .destacado h2 {
   font-family: "Tinos", "Times New Roman", Times, serif;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 400;
   font-style: italic;
   padding-bottom: 1rem;
@@ -200,10 +200,13 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(4, auto);
+}
+.instagram a {
+  text-decoration: none;
 }
 .instagram .ig-name {
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 1/5;
   align-self: center;
   justify-self: center;
@@ -223,7 +226,14 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 }
 .instagram .ig-img1 {
   grid-column: 1/6;
-  grid-row: 3;
+  grid-row: 4;
+}
+.instagram .linea {
+  grid-row: 2;
+  grid-column: 1/6;
+  border-top: 1px solid #000000;
+  width: 35%;
+  margin: 5px auto;
 }
 
 @media screen and (max-width: 790px) {
@@ -320,6 +330,33 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     grid-row: 2;
     padding: 0.5rem 1.4rem;
   }
+  .lista-destacados {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .lista-destacados li {
+    padding-left: 1rem;
+  }
+  .lista-destacados .destacado-item-1 {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  .lista-destacados .destacado-item-2 {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .lista-destacados .destacado-item-3 {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  .lista-destacados .destacado-item-4 {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .lista-destacados .destacado-item-5 {
+    grid-row: 3;
+    grid-column: 1;
+  }
   .main-content {
     padding: 0;
     max-height: none;
@@ -327,7 +364,16 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 }
 @media screen and (min-width: 1200px) {
   .grid-conteiner .item-grid-3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-right: 1.5rem;
+    padding-top: 1rem;
+  }
+  .grid-conteiner .item-grid-2 {
+    padding-top: 1rem;
+  }
+  .grid-conteiner .item-grid-3 {
+    grid-column: 5/10;
+    grid-row: 2/5;
+    padding: 0.5rem 1rem 1rem 1rem;
   }
 }/*# sourceMappingURL=aboutMe.css.map */
