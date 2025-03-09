@@ -156,7 +156,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 }
 .destacado h2 {
   font-family: "Tinos", "Times New Roman", Times, serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: italic;
   padding-bottom: 1rem;
@@ -201,6 +201,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(4, auto);
+  padding: 3rem 1rem;
 }
 .instagram a {
   text-decoration: none;
@@ -214,6 +215,8 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   font-family: "Tinos", "Times New Roman", Times, serif;
   font-weight: 400;
   font-size: 1rem;
+  letter-spacing: 0.5rem;
+  color: #ff0073;
 }
 .instagram .ig-tittle {
   padding: 1rem 0rem;
@@ -222,7 +225,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   font-family: "Tinos", "Times New Roman", Times, serif;
   font-weight: 200;
   font-style: italic;
-  padding-left: 1rem;
+  margin: auto;
 }
 .instagram .ig-img1 {
   grid-column: 1/6;
@@ -232,8 +235,12 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   grid-row: 2;
   grid-column: 1/6;
   border-top: 1px solid #000000;
-  width: 35%;
+  width: 20%;
   margin: 5px auto;
+}
+.instagram .link-2 {
+  grid-column: 1/6;
+  grid-row: 4;
 }
 
 @media screen and (max-width: 790px) {
@@ -367,6 +374,9 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   .lista-destacados .destacado-item-5 {
     grid-row: 3;
     grid-column: 1;
+  }
+  .instagram {
+    padding: 1rem;
   }
   .main-content {
     padding: 0;
