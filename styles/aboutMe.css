@@ -330,6 +330,17 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     grid-row: 2;
     padding: 0.5rem 1.4rem;
   }
+  .destacado {
+    padding-left: 3rem;
+  }
+  .destacado h2 {
+    font-family: "Tinos", "Times New Roman", Times, serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-style: italic;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+  }
   .lista-destacados {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;

@@ -365,7 +365,18 @@ html, body {
 
     }
   }
+  .destacado{
+    padding-left: 3rem ;
 
+    h2{
+      font-family: "Tinos",'Times New Roman', Times, serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      font-style: italic;
+      padding-bottom: 1rem;
+      padding-right: 3rem;
+    }
+  }
   .lista-destacados{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
