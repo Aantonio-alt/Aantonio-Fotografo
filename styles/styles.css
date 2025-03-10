@@ -84,7 +84,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 .pages a {
   text-decoration: none;
   font-family: "Tinos", "Times New Roman", Times, serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: rgb(41, 41, 41);
   font-weight: 100;
   letter-spacing: 0.15rem;
@@ -180,6 +180,19 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   }
   .sidebar {
     padding: 2rem 0 2rem 1rem;
-    min-width: 12rem;
+    min-width: 9rem;
+  }
+  .sidebar .name {
+    font-size: 1.5rem;
+    padding: 1rem 0 4rem 0;
+    font-family: "Tinos", "Times New Roman", Times, serif;
+    font-weight: 100;
+    letter-spacing: 0.15rem;
+  }
+  .sidebar a {
+    font-size: 0.8rem;
+  }
+  div img {
+    min-width: 8rem;
   }
 }/*# sourceMappingURL=styles.css.map */

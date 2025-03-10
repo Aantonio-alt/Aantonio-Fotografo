@@ -90,7 +90,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 .pages a {
   text-decoration: none;
   font-family: "Tinos", "Times New Roman", Times, serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: rgb(41, 41, 41);
   font-weight: 100;
   letter-spacing: 0.15rem;
@@ -358,7 +358,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     grid-template-rows: auto;
   }
   .lista-destacados li {
-    padding-left: 1rem;
+    padding-left: 0;
     font-size: 1.7rem;
   }
   .lista-destacados .destacado-item-1 {
