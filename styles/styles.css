@@ -63,17 +63,9 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   font-weight: 100;
   letter-spacing: 0.15rem;
 }
-.sidebar .footer {
-  font-size: 0.8rem;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  margin-top: auto;
-  padding: 0 1rem;
-  font-family: "Tinos", "Times New Roman", Times, serif;
-}
 
 .pages {
-  padding: 0 0 0 1rem;
+  padding: 0 1rem;
 }
 .pages ul {
   list-style: none;

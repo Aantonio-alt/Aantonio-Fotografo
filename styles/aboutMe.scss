@@ -75,14 +75,7 @@ html, body {
     }
 
   }
-  .footer {
-    font-size: 0.8rem;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: auto;
-    padding: 0 1rem;
-    font-family: "Tinos",'Times New Roman', Times, serif;
-  }
+
 }
 
 
@@ -188,10 +181,12 @@ html, body {
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 200;
-  
+  list-style:circle;
+
   li{
     padding-bottom: 1rem;
     margin: auto;
+
   }
   .destacado-item-1{
     grid-row: 1;
@@ -378,7 +373,7 @@ html, body {
 
     }
   }
-  .destacado{
+  main .destacado{
     padding-left: 0 ;
     text-align: center;
 

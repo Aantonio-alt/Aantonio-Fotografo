@@ -69,14 +69,6 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   color: rgb(41, 41, 41);
   transition: color 0.3s ease;
 }
-.sidebar .footer {
-  font-size: 0.8rem;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  margin-top: auto;
-  padding: 0 1rem;
-  font-family: "Tinos", "Times New Roman", Times, serif;
-}
 
 .pages {
   padding: 0 0 0 1rem;
@@ -171,6 +163,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   padding: 1rem;
   font-size: 1.8rem;
   font-weight: 200;
+  list-style: circle;
 }
 .lista-destacados li {
   padding-bottom: 1rem;
@@ -342,11 +335,11 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     grid-row: 2;
     padding: 0.5rem 1.4rem;
   }
-  .destacado {
+  main .destacado {
     padding-left: 0;
     text-align: center;
   }
-  .destacado h2 {
+  main .destacado h2 {
     font-family: "Tinos", "Times New Roman", Times, serif;
     font-size: 1.3rem;
     font-weight: 400;
