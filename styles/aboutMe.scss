@@ -244,7 +244,7 @@ html, body {
 
   
   .ig-tittle{
-    padding: 1rem 0rem;
+    padding: .3rem 0rem;
     grid-column: 1/5;
     grid-row: 1;
     font-family: "Tinos",'Times New Roman', Times, serif;
@@ -268,7 +268,9 @@ html, body {
     grid-row: 4;
   }
 }
-
+.footer{
+  display: none;
+}
 @media screen and (max-width: 790px){
 
   html, body {
@@ -429,11 +431,12 @@ html, body {
   }
   
   .instagram{
-    padding: 1rem;
+    padding: 3rem 1rem;
 
     .ig-name{
       font-size: .8rem;
       letter-spacing: .2rem;
+      padding: 1rem;
     }
   }
   .main-content{
@@ -441,7 +444,10 @@ html, body {
     max-height: none;
   }
 
-
+  .footer{
+    display: flex;
+    padding: 1rem 2rem 2.5rem 2rem;
+  }
 }
 
 @media screen and (min-width: 1200px){
