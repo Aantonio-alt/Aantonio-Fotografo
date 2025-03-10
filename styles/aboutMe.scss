@@ -173,6 +173,7 @@ html, body {
     font-weight: 400;
     font-style: italic;
     padding-bottom: 1rem;
+    padding-left: 1rem;
   }
 }
 .lista-destacados{
@@ -222,15 +223,21 @@ html, body {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
   padding: 3rem 1rem;
   
   a{
     text-decoration: none;
   }
 
+  .icon-ig{
+    grid-column: 1/6;
+    grid-row: 1;
+    margin: auto;
+    width: 2rem;
+  }
   .ig-name{
-    grid-row: 3;
+    grid-row: 4;
     grid-column: 1/5;
     align-self: center;
     justify-self: center;
@@ -246,7 +253,7 @@ html, body {
   .ig-tittle{
     padding: .3rem 0rem;
     grid-column: 1/5;
-    grid-row: 1;
+    grid-row: 2;
     font-family: "Tinos",'Times New Roman', Times, serif;
     font-weight: 200;
     font-style: italic;
@@ -254,23 +261,22 @@ html, body {
   }
   .ig-img1{
     grid-column: 1/6;
-    grid-row: 4;
+    grid-row: 5;
   }
   .linea {
-    grid-row: 2;
+    grid-row: 3;
     grid-column: 1/6;
     border-top: 1px solid #000000; 
     width: 20%; 
     margin: 5px auto;
   }
+
   .link-2{
     grid-column: 1/6;
-    grid-row: 4;
+    grid-row: 5;
   }
 }
-.footer{
-  display: none;
-}
+
 @media screen and (max-width: 790px){
 
   html, body {
@@ -360,6 +366,7 @@ html, body {
       grid-row: 3;
       padding: 2rem;
       max-height: none;
+      max-width: 20rem;
     }
 
     .item-grid-2{
@@ -389,6 +396,7 @@ html, body {
       font-weight: 400;
       font-style: italic;
       padding-bottom: 1rem;
+      padding-left: 0;
     }
   }
   .lista-destacados{
@@ -444,10 +452,7 @@ html, body {
     max-height: none;
   }
 
-  .footer{
-    display: flex;
-    padding: 1rem 2rem 2.5rem 2rem;
-  }
+
 }
 
 @media screen and (min-width: 1200px){

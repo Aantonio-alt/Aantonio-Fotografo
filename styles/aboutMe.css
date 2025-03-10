@@ -157,6 +157,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   font-weight: 400;
   font-style: italic;
   padding-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 .lista-destacados {
@@ -203,14 +204,20 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(4, auto);
+  grid-template-rows: repeat(5, auto);
   padding: 3rem 1rem;
 }
 .instagram a {
   text-decoration: none;
 }
+.instagram .icon-ig {
+  grid-column: 1/6;
+  grid-row: 1;
+  margin: auto;
+  width: 2rem;
+}
 .instagram .ig-name {
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 1/5;
   align-self: center;
   justify-self: center;
@@ -224,7 +231,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 .instagram .ig-tittle {
   padding: 0.3rem 0rem;
   grid-column: 1/5;
-  grid-row: 1;
+  grid-row: 2;
   font-family: "Tinos", "Times New Roman", Times, serif;
   font-weight: 200;
   font-style: italic;
@@ -232,10 +239,10 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 }
 .instagram .ig-img1 {
   grid-column: 1/6;
-  grid-row: 4;
+  grid-row: 5;
 }
 .instagram .linea {
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 1/6;
   border-top: 1px solid #000000;
   width: 20%;
@@ -243,11 +250,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
 }
 .instagram .link-2 {
   grid-column: 1/6;
-  grid-row: 4;
-}
-
-.footer {
-  display: none;
+  grid-row: 5;
 }
 
 @media screen and (max-width: 790px) {
@@ -329,6 +332,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     grid-row: 3;
     padding: 2rem;
     max-height: none;
+    max-width: 20rem;
   }
   main .grid-conteiner .item-grid-2 {
     grid-column: 1;
@@ -355,6 +359,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     font-weight: 400;
     font-style: italic;
     padding-bottom: 1rem;
+    padding-left: 0;
   }
   .lista-destacados {
     grid-template-columns: 1fr 1fr;
@@ -402,10 +407,6 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   .main-content {
     padding: 0;
     max-height: none;
-  }
-  .footer {
-    display: flex;
-    padding: 1rem 2rem 2.5rem 2rem;
   }
 }
 @media screen and (min-width: 1200px) {
