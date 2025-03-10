@@ -48,11 +48,29 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   height: 100%;
 }
 
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 2rem;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer li {
+  width: 50%;
+}
+
 .sidebar {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem 2rem 2rem;
+  padding: 2rem 1rem 2rem 1rem;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   min-width: 17.5rem;
 }
@@ -407,6 +425,9 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   .main-content {
     padding: 0;
     max-height: none;
+  }
+  footer {
+    display: none;
   }
 }
 @media screen and (min-width: 1200px) {
