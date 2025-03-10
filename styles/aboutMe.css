@@ -143,6 +143,11 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   padding: 0.5rem 1rem 1rem 1rem;
 }
 
+.linea0 {
+  width: 90%;
+  margin: auto;
+}
+
 .destacado {
   padding-left: 1rem;
 }
@@ -351,8 +356,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
     grid-template-rows: auto;
   }
   .lista-destacados li {
-    padding-left: 0;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
   .lista-destacados .destacado-item-1 {
     grid-row: 1;
