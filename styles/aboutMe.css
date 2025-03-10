@@ -171,7 +171,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   list-style: circle;
 }
 .lista-destacados li {
-  padding-bottom: 1rem;
+  padding-bottom: 0;
   margin: auto;
 }
 .lista-destacados .destacado-item-1 {
@@ -343,6 +343,7 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   main .destacado {
     padding-left: 0;
     text-align: center;
+    margin: auto;
   }
   main .destacado h2 {
     font-family: "Tinos", "Times New Roman", Times, serif;
@@ -357,6 +358,10 @@ html .tinos-bold-italic, body .tinos-bold-italic {
   }
   .lista-destacados li {
     font-size: 1.4rem;
+    margin: 0;
+    text-align: start;
+    margin-right: 1rem;
+    margin-left: 1.4rem;
   }
   .lista-destacados .destacado-item-1 {
     grid-row: 1;

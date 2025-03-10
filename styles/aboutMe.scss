@@ -187,7 +187,7 @@ html, body {
   list-style:circle;
 
   li{
-    padding-bottom: 1rem;
+    padding-bottom: 0;
     margin: auto;
 
   }
@@ -379,6 +379,7 @@ html, body {
   main .destacado{
     padding-left: 0 ;
     text-align: center;
+    margin: auto;
 
     h2{
       font-family: "Tinos",'Times New Roman', Times, serif;
@@ -395,7 +396,10 @@ html, body {
 
     li{
       font-size: 1.4rem;
-      
+      margin: 0;
+      text-align: start;
+      margin-right: 1rem;
+      margin-left: 1.4rem ;
     }
 
     .destacado-item-1{
