@@ -206,6 +206,9 @@ footer li {
   .sidebar a {
     font-size: 0.9rem;
   }
+  .sidebar nav {
+    padding: 0;
+  }
   div img {
     min-width: 5rem;
     padding-right: 0.3rem;
