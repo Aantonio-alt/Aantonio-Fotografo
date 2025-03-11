@@ -194,7 +194,7 @@ footer li {
   }
   .sidebar {
     padding: 2rem 0 2rem 1rem;
-    min-width: 9rem;
+    min-width: 11rem;
   }
   .sidebar .name {
     font-size: 1.5rem;
@@ -204,7 +204,7 @@ footer li {
     letter-spacing: 0.15rem;
   }
   .sidebar a {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
   }
   .sidebar nav {
     padding: 0;
