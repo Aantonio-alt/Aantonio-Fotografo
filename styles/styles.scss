@@ -196,6 +196,7 @@ footer{
     gap: .5rem;
     max-height: 92vh;
     overflow-y: auto;
+    margin: .3rem;
   }
   footer{
     display: none;
@@ -215,9 +216,5 @@ footer{
       font-size: .9rem;
     }
   }
-  div{
-    img{
-      min-width: 8rem;
-    }
-  }
+
 }

@@ -187,6 +187,7 @@ footer li {
     gap: 0.5rem;
     max-height: 92vh;
     overflow-y: auto;
+    margin: 0.3rem;
   }
   footer {
     display: none;
@@ -204,8 +205,5 @@ footer li {
   }
   .sidebar a {
     font-size: 0.9rem;
-  }
-  div img {
-    min-width: 8rem;
   }
 }/*# sourceMappingURL=styles.css.map */
