@@ -206,4 +206,8 @@ footer li {
   .sidebar a {
     font-size: 0.9rem;
   }
+  div img {
+    min-width: 5rem;
+    padding-right: 0.3rem;
+  }
 }/*# sourceMappingURL=styles.css.map */
