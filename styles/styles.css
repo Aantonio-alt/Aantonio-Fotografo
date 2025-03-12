@@ -1,3 +1,25 @@
+/*
+@mixin font-tinos-normal{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin font-tinos-bold{
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@mixin font-tinos-italic{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+@mixin font-tinos-italicBold{
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+} 
+*/
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +50,7 @@ footer {
   margin-top: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 footer img {
   width: 2rem;
@@ -50,15 +73,16 @@ footer li {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   min-width: 17.5rem;
 }
 .sidebar .name {
-  font-size: 2rem;
-  padding: 1rem 0 4rem 1rem;
   font-family: "Tinos", "Times New Roman", Times, serif;
+  font-size: 2rem;
   font-weight: 100;
+  font-style: normal;
+  padding: 1rem 0 4rem 1rem;
   letter-spacing: 0.15rem;
 }
 
@@ -72,26 +96,24 @@ footer li {
   margin-bottom: 1.3rem;
 }
 .pages a {
+  transition: color 0.3s ease;
   text-decoration: none;
+  color: rgb(41, 41, 41);
   font-family: "Tinos", "Times New Roman", Times, serif;
   font-size: 1.3rem;
-  color: rgb(41, 41, 41);
   font-weight: 100;
+  font-style: normal;
   letter-spacing: 0.15rem;
-  transition: color 0.3s ease;
 }
-.pages a:hover {
-  color: rgb(139, 139, 139);
-}
-.pages .resalte {
+.pages a:hover, .pages .resalte {
   color: rgb(139, 139, 139);
 }
 
 .gallery {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(auto, auto);
   max-height: 100vh;
   gap: 0.6rem;
   overflow-y: auto;

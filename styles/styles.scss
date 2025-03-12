@@ -1,22 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-html, body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+//mixins
+@import "../sass/mixins";
+@import "../sass/variables";
 
-    img, picture, video, canvas, svg {
-        display: block;
-        max-width: 100%; 
-    }
-    ul{
-        list-style: none;
-    }
-    
+// scss
+* {
+  @include reset;
+}
+
+html, body {
+  @include flex-center;
+  height: 100%;
+
+  img, picture, video, canvas, svg {
+      display: block;
+      max-width: 100%; 
+  }
+
+  ul {
+      list-style: none;
+  }
 }
 
 .header {
@@ -24,78 +26,68 @@ html, body {
   width: auto;
   height: 100%;
 }
-footer{
+
+footer {
   margin-top: auto;
-  display: flex;
-  justify-content: center;
-  img{
-    width: 2rem;
+  @include flex-center;
+  
+  img {
+      width: 2rem;
   }
-  ul{
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 10px;
+  
+  ul {
+      @include flex-center;
+      gap: 10px;
   }
-  li{
-    width: 50%;
+  
+  li {
+      width: 50%;
   }
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
 .sidebar {
-  background-color: #ffffff;
+  background-color: $background-color;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem 2rem 1rem;
+  padding: 2rem 1rem;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   min-width: 17.5rem;
 
   .name {
-    font-size: 2rem;
-    padding: 1rem 0 4rem 1rem;
-    font-family: "Tinos",'Times New Roman', Times, serif;
-    font-weight: 100;
-    letter-spacing: .15rem ;
+      @include font-style(2rem, 100, normal);
+      padding: 1rem 0 4rem 1rem;
+      letter-spacing: .15rem;
+  }
+}
 
+.pages {
+  padding: 0 0 0 2rem;
+  
+  ul {
+      list-style: none;
   }
 
-}
-.pages{
-  padding:  0 0 0 2rem;
-    ul {
-      list-style: none;
-    }
-
-    li {
+  li {
       margin-bottom: 1.3rem;
-    }
+  }
 
-    a {
-      text-decoration: none;
-      font-family: "Tinos",'Times New Roman', Times, serif;
-      font-size: 1.3rem;
-      color: rgb(41, 41, 41);
-      font-weight: 100;
-      letter-spacing: .15rem ;
-      transition: color 0.3s ease;
-    }
+  a {
+      @include transition-link;
+      @include font-style(1.3rem, 100, normal);
+      letter-spacing: .15rem;
+  }
 
-    a:hover {
-      color: rgb(139, 139, 139);
-    }
-    .resalte{
-      color: rgb(139, 139, 139);
-
-    }
+  a:hover, .resalte {
+      color: $hover-color;
+  }
 }
 
 .gallery {
   width: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto  ;
+  @include grid(3, auto);
   max-height: 100vh;
   gap: .6rem;
   overflow-y: auto;
