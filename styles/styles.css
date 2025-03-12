@@ -17,26 +17,6 @@ html img, html picture, html video, html canvas, html svg, body img, body pictur
 html ul, body ul {
   list-style: none;
 }
-html .tinos-regular, body .tinos-regular {
-  font-family: "Tinos", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-html .tinos-bold, body .tinos-bold {
-  font-family: "Tinos", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-html .tinos-regular-italic, body .tinos-regular-italic {
-  font-family: "Tinos", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-html .tinos-bold-italic, body .tinos-bold-italic {
-  font-family: "Tinos", serif;
-  font-weight: 700;
-  font-style: italic;
-}
 
 .header {
   display: flex;

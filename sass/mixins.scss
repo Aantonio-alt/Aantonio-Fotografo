@@ -1,0 +1,51 @@
+//mixins 
+@mixin reset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin grid($columns, $rows){
+    display: grid;
+    grid-template-columns: repeat($columns, 1fr);
+    grid-template-rows: repeat($rows, auto);
+}
+@mixin font-style($size, $weight: 400, $style) {
+    font-family: "Tinos", 'Times New Roman', Times, serif;
+    font-size: $size;
+    font-weight: $weight;
+    font-style: $style;
+}
+@mixin transition-link{
+    transition: color 0.3s ease;
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
+
+
+
+// Fonts Tinos 
+@mixin font-tinos-normal{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin font-tinos-bold{
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@mixin font-tinos-italic{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+@mixin font-tinos-italicBold{
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+}
