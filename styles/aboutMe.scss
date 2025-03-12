@@ -1,6 +1,6 @@
 //mixins
-@import "../sass/mixins.scss";
-
+@import "../sass/mixins";
+@import "../sass/variables";
 
 // scss
 * {
@@ -30,10 +30,10 @@ html, body {
   width: auto;
   height: 100%;
 }
+
 footer{
   @include flex-center;
   margin-top: auto;
-
 
   img{
     width: 2rem;
@@ -47,29 +47,29 @@ footer{
   }
 }
 .sidebar {
-    background-color: #ffffff;
+    background-color: $background-color;
     display: flex;
     flex-direction: column;
-    padding: 2rem 1rem 2rem 2rem;
+    padding: 2rem 1rem 2rem 1rem;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
     min-width: 17.5rem;
 
   .name {
     @include font-style(2rem, 400, normal);
-    padding: 1rem 0 4rem 0;
+    padding: 1rem 0 4rem 1rem;
     letter-spacing: .15rem ;
     
     a{
       @include transition-link;
-      font-family: "Tinos",'Times New Roman', Times, serif;
-      color: rgb(41, 41, 41);
+      font-family: $font-family;
+      color: $color-text;
     }
   }
 }
 
 
 .pages{
-  padding: 0 0 0 1rem;
+  padding: 0 0 0 2rem;
 
     ul {
       list-style: none;
@@ -86,10 +86,10 @@ footer{
     }
 
     a:hover {
-      color: rgb(139, 139, 139);
+      color: $hover-color;
     }
     .resalte{
-      color: rgb(139, 139, 139);
+      color: $hover-color;
     }
 }
 

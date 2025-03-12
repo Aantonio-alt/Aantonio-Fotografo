@@ -51,7 +51,7 @@ footer li {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem 2rem 2rem;
+  padding: 2rem 1rem 2rem 1rem;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   min-width: 17.5rem;
 }
@@ -60,7 +60,7 @@ footer li {
   font-size: 2rem;
   font-weight: 400;
   font-style: normal;
-  padding: 1rem 0 4rem 0;
+  padding: 1rem 0 4rem 1rem;
   letter-spacing: 0.15rem;
 }
 .sidebar .name a {
@@ -68,11 +68,11 @@ footer li {
   text-decoration: none;
   color: rgb(41, 41, 41);
   font-family: "Tinos", "Times New Roman", Times, serif;
-  color: rgb(41, 41, 41);
+  color: #000000;
 }
 
 .pages {
-  padding: 0 0 0 1rem;
+  padding: 0 0 0 2rem;
 }
 .pages ul {
   list-style: none;
