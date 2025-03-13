@@ -7,9 +7,9 @@
   @include reset;
 }
 html, body {
-    @include flex-center;
-    height: 100%;
-
+  @include flex-center;
+  height: 100%;
+  justify-content: start;
     img, picture, video, canvas, svg {
         display: block;
         max-width: 100%; 
@@ -91,6 +91,50 @@ html, body {
 }
 
 
+.main-conteier {
+  @include grid(5, 10);
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+}
+  
+.div1 {
+  grid-column: span 4 / span 4;
+}
+
+.div2 {
+  grid-column: span 4 / span 4;
+  grid-row: span 3 / span 3;
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.div3 {
+  grid-column: span 4 / span 4;
+  grid-row: span 3 / span 3;
+  grid-column-start: 1;
+  grid-row-start: 5;
+}
+
+.div4 {
+  grid-column: span 4 / span 4;
+  grid-row: span 3 / span 3;
+  grid-column-start: 1;
+  grid-row-start: 8;
+}
+
+.div5 {
+  grid-row: span 4 / span 4;
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+
+.div6 {
+  grid-row: span 6 / span 6;
+  grid-column-start: 5;
+  grid-row-start: 5;
+}
+      
 
 
 

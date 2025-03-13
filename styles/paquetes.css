@@ -31,6 +31,7 @@ html, body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  justify-content: start;
 }
 html img, html picture, html video, html canvas, html svg, body img, body picture, body video, body canvas, body svg {
   display: block;
