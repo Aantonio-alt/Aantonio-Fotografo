@@ -188,6 +188,9 @@ html ul, body ul {
   .header footer {
     display: none;
   }
+  .header .salto {
+    display: none;
+  }
   .sidebar {
     display: flex;
     align-items: center;

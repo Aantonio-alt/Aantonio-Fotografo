@@ -302,6 +302,9 @@ footer li {
   .header .footer {
     display: none;
   }
+  .header .salto {
+    display: none;
+  }
   .sidebar {
     display: flex;
     align-items: center;
