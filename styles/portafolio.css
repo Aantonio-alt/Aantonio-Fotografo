@@ -1,0 +1,119 @@
+/*
+@mixin font-tinos-normal{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@mixin font-tinos-bold{
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+@mixin font-tinos-italic{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+@mixin font-tinos-italicBold{
+    font-family: "Tinos", serif;
+    font-weight: 700;
+    font-style: italic;
+} 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+html img, html picture, html video, html canvas, html svg, body img, body picture, body video, body canvas, body svg {
+  display: block;
+  max-width: 100%;
+}
+html ul, body ul {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  display: flex;
+  width: auto;
+  height: 100%;
+}
+.header footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+.header footer img {
+  width: 2rem;
+}
+.header footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.header footer li {
+  width: 50%;
+}
+
+.sidebar {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem 2rem 1rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  min-width: 17.5rem;
+}
+.sidebar .name {
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1rem 0 4rem 1rem;
+  letter-spacing: 0.15rem;
+}
+.sidebar .name a {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  color: #000000;
+}
+
+.pages {
+  padding: 0 0 0 2rem;
+}
+.pages ul {
+  list-style: none;
+}
+.pages li {
+  margin-bottom: 1.3rem;
+}
+.pages a {
+  font-family: "Tinos", "Times New Roman", Times, serif;
+  font-size: 1.3rem;
+  font-weight: 400;
+  font-style: normal;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: rgb(41, 41, 41);
+  letter-spacing: 0.15rem;
+}
+.pages a:hover {
+  color: rgb(139, 139, 139);
+}
+.pages .resalte {
+  color: rgb(139, 139, 139);
+}/*# sourceMappingURL=portafolio.css.map */

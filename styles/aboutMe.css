@@ -143,6 +143,7 @@ footer li {
 }
 .grid-conteiner img {
   min-width: 13rem;
+  border-radius: 5px;
 }
 .grid-conteiner .item-grid-1 {
   grid-column: 1/5;

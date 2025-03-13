@@ -1,0 +1,91 @@
+//mixins y variables
+@import "../sass/mixins";
+@import "../sass/variables";
+
+// scss
+* {
+  @include reset;
+}
+html, body {
+    @include flex-center;
+    height: 100%;
+
+    img, picture, video, canvas, svg {
+        display: block;
+        max-width: 100%; 
+    }
+
+    ul{
+        list-style: none;
+    }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.header {
+  display: flex;
+  width: auto;
+  height: 100%;
+
+  footer{
+    @include flex-center;
+    margin-top: auto;
+  
+    img{
+      width: 2rem;
+    }
+    ul{
+      @include flex-center;
+      gap: 10px;
+    }
+    li{
+      width: 50%;
+    }
+  }
+}
+.sidebar {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 2rem 1rem;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    min-width: 17.5rem;
+
+  .name {
+    @include font-style(2rem, 400, normal);
+    padding: 1rem 0 4rem 1rem;
+    letter-spacing: .15rem ;
+    
+    a{
+      @include transition-link;
+      font-family: $font-family;
+      color: $color-text;
+    }
+  }
+}
+.pages{
+  padding: 0 0 0 2rem;
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      margin-bottom: 1.3rem;
+    }
+
+    a {
+      @include font-style(1.3rem, 400, normal);
+      @include transition-link;
+      letter-spacing: .15rem ;
+    }
+
+    a:hover {
+      color: $hover-color;
+    }
+    .resalte{
+      color: $hover-color;
+    }
+}

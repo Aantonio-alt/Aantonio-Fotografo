@@ -1,4 +1,4 @@
-//mixins
+//mixins y variables
 @import "../sass/mixins";
 @import "../sass/variables";
 
@@ -6,7 +6,6 @@
 * {
   @include reset;
 }
-
 html, body {
     @include flex-center;
     height: 100%;
@@ -105,12 +104,12 @@ footer{
     letter-spacing: 1px ;
     line-height: 1.5rem;
     margin-top: 3rem;
-    margin-bottom: 1rem ;
+    margin-bottom: 1rem;
     padding-bottom: 2rem;
 
     img{
       min-width: 13rem;
-
+      border-radius: 5px;
     }
     .item-grid-1{
         grid-column: 1/5;
