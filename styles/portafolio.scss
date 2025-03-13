@@ -89,3 +89,102 @@ html, body {
       color: $hover-color;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 790px){
+
+    html, body {
+      display: block;
+      height: 100%;
+      max-height: 100vh
+    }
+    .sidebar{
+      padding: 2rem 1rem 2rem 1rem;
+      min-width: 12rem;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      height: auto;
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 1rem 2rem;
+      
+      footer {
+        display: none; 
+      
+      }
+    }
+  
+    .sidebar {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      padding: 0;
+      box-shadow: none;
+      min-width: auto;
+  
+      .name {
+        font-size: 1.4rem;
+        font-family: "Tinos", 'Times New Roman', Times, serif;
+        font-weight: 100;
+        letter-spacing: .15rem;
+        padding: 1rem 1rem 1.5rem 1rem;
+      }
+    }
+    
+    .pages {
+      overflow-x: auto; 
+      white-space: nowrap; 
+      max-width: 90vw; 
+      padding: 0 .5rem 0 .5rem;
+      margin: .3rem;
+    }
+  
+    .pages ul {
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .pages li {
+      margin-bottom: 0; 
+      padding-right: 1rem;
+    }
+    
+    .pages a {
+      text-decoration: none;
+      font-family: "Tinos", 'Times New Roman', Times, serif;
+      font-size: 1rem;
+      color: rgb(41, 41, 41);
+      font-weight: 100;
+      letter-spacing: .15rem;
+      transition: color 0.3s ease;
+      font-size: .8rem;
+    }
+    
+    .pages a:hover {
+      color: rgb(139, 139, 139);
+    }
+    
+}  

@@ -298,6 +298,9 @@ footer li {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 1rem 2rem;
   }
+  .header .footer {
+    display: none;
+  }
   .sidebar {
     display: flex;
     align-items: center;
@@ -341,9 +344,6 @@ footer li {
   }
   .pages a:hover {
     color: rgb(139, 139, 139);
-  }
-  .footer {
-    display: none;
   }
   main .grid-conteiner {
     display: grid;
