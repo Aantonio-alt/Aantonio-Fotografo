@@ -28,6 +28,7 @@
 
 html, body {
   display: flex;
+  width: 100%;
   height: 100%;
   justify-content: start;
 }
@@ -117,7 +118,11 @@ html ul, body ul {
   color: rgb(139, 139, 139);
 }
 
-.main-conteier {
+main {
+  width: 100%;
+}
+
+.main-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(10, auto);
