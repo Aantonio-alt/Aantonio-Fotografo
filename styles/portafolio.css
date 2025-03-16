@@ -214,6 +214,19 @@ main {
   grid-row: 4;
 }
 
+button {
+  background-color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 790px) {
   html, body {
     display: block;
