@@ -228,7 +228,7 @@ main{
 }
 
 button {
-  background-color: #000;
+  background-color: #000000;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -237,7 +237,14 @@ button {
 button a {
   color: #fff;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 700;
+}
+button:hover{
+  background-color: #969696;
+
+  a{
+    color: #ffffff;
+  }
 }
 
 
