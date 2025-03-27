@@ -124,6 +124,8 @@ main {
   max-height: 98vh;
   overflow-y: auto;
   padding: 1rem 2rem;
+  width: 100%;
+  align-items: center;
 }
 
 .main-container {
@@ -133,7 +135,7 @@ main {
   gap: 8px;
   width: 100%;
   height: 100%;
-  padding: 2rem;
+  padding: 2rem 1rem 1rem 1rem;
   max-width: 55rem;
 }
 
@@ -174,7 +176,6 @@ main {
   font-size: 1.6rem;
   font-weight: 400;
   font-style: italic;
-  padding: 1rem 1rem 0 1rem;
 }
 
 .linea {
@@ -276,7 +277,7 @@ main {
      object-fit: cover;
 }
 .portafolio-eventos .imagen:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 .portafolio-eventos .item-grid1 {
   grid-column: 1;
