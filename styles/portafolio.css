@@ -523,9 +523,14 @@ main {
   }
   .portafolio-eventos {
     display: flex;
-    flex-direction: column;
     padding: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .portafolio-eventos .imagen {
+    width: 50%;
+  }
+  .portafolio-eventos .item-grid5, .portafolio-eventos .item-grid8, .portafolio-eventos .item-grid12, .portafolio-eventos .item-grid16, .portafolio-eventos .item-grid18, .portafolio-eventos .item-grid19 {
+    width: 100%;
   }
 }/*# sourceMappingURL=portafolio.css.map */

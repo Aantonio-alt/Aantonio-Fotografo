@@ -530,10 +530,17 @@ main{
 
   .portafolio-eventos {
     display: flex;
-    flex-direction: column;
     padding: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+
+    .imagen {
+      width: 50%;
+    }
+    .item-grid5, .item-grid8, .item-grid12, .item-grid16,.item-grid18, .item-grid19{
+      width: 100%;
+    }
+
   }
 
 
