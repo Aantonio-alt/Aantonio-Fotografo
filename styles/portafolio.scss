@@ -240,6 +240,11 @@ main{
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
 
+  img{
+    border-radius: 1rem;
+  }
+
+
   .imagen {
     transition: transform 0.3s ease-in-out;
     cursor: pointer;

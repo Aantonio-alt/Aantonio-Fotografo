@@ -262,6 +262,9 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
 }
+.portafolio-eventos img {
+  border-radius: 1rem;
+}
 .portafolio-eventos .imagen {
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
